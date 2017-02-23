@@ -1,0 +1,16 @@
+
+.cinema{
+	text-align: center;
+
+}
+
+
+.seatRow{
+	display: inline;
+	text-align:center;
+
+}
+.seatRow img{
+	width: 125px;
+
+}
