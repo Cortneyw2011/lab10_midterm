@@ -1,0 +1,29 @@
+#header div{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+
+
+.cinema{
+	text-align: center;
+
+}
+
+
+.seatRow{
+	display: inline;
+	text-align:center;
+
+}
+.seatRow img{
+	width: 125px;
+
+}
+
+body{
+  background-image: url('assets/curtain.gif');
+  background-size: 100%;
+}
