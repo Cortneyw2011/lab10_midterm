@@ -1,7 +1,7 @@
 $(document).ready(function(){
 $(".form").hide()
 $("img").click(function(){
- 	$(".form").toggle();
+ 	$(".form").show();
 	$(this).fadeTo("fast", 0.3);
 });
 });
