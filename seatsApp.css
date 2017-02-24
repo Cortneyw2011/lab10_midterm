@@ -19,7 +19,7 @@
   border-radius: 5px;
   position: relative;
   top: 75px;
-  height: 900px;
+  height: 950px;
 
 }
 
@@ -27,16 +27,13 @@ form{
   border: inset 5px black;
   border-radius: 5px;
   position: relative;
-  top: 200px;
+  top: 90px;
   margin: auto;
-  width: 300px;
+  width: 200px;
+  height: 150px;
 }
 
-<<<<<<< HEAD
-.form p input{
-  position: relative;
-  margin: auto;
-}
+
 
 .cinema{
 	text-align:center;
@@ -45,13 +42,13 @@ form{
 
 
 .seatRow{
-/*	display: inline-flex; */
+	display: inline-flex;
 	text-align:center;
   position: relative;
   top: 50px;
 }
 .seatRow img{
-	width: 125px;
+	width: 100px;
   display: inline-flex;
 
 
@@ -85,11 +82,17 @@ body{
 .seatRow img{
   width: 75px;
 }
+#header h1{
+  font-size: 75px;
+}
 }
 @media (max-width:688px){
   .seatRow img{
     width: 50px;
   }
+  #header h1{
+  font-size: 50px;
+}
 }
 
 
@@ -99,6 +102,9 @@ body{
   .seatRow img{
     width: 40px;
   }
+  #header h1{
+  font-size: 40px;
+}
 }
 
 
@@ -106,6 +112,10 @@ body{
   .seatRow img{
     width: 35px;
   }
+
+  #header h1{
+  font-size: 35px;
+}
 
 }
 @media (max-width:360px){
