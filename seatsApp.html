@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="seatsApp.css">
     <script src="lib\jquery-3.1.1.min.js" charset="utf-8"></script>
     <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   </head>
-  <body>
+<body>
+
 
 <!-- TITLE BELOW -->
 
-<div class="container">
+<div class="container"> <!--tag closes on line 77-->
+  <div class="animated rotateInDownLeft">
   <div class="row" id="header">
     <div id="header">
       <h1 >Have a Seat!</h1>
     </div>
   </div>
+</div>
 
 <!--MAIN CONTENT BELOW  -->
 
@@ -28,6 +32,7 @@
   <!--Content-->
 
   <div class="cinema">
+  <div class="animated zoomIn">
 
       <!-- 24 seats-->
 
@@ -68,8 +73,10 @@
     </div>
   </div>
 </div>
-
-<div id ="form" class="row">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
   <form class="form">
     <p>Name:</p>
     <input type="text" name="name"></input>
