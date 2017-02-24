@@ -4,17 +4,38 @@
   font-family: 'Great Vibes', cursive;
   text-align: center;
   font-size: 100px;
-  color: white;
-}
+  color: black;
 
+}
 
 #header div{
 
-  border: 5px white outset;
+  border: 5px black outset;
   border-radius: 10px;
 }
 
+#main-text {
+  border: outset 15px black;
+  border-radius: 5px;
+  position: relative;
+  top: 75px;
+  height: 900px;
 
+}
+
+form{
+  border: inset 5px black;
+  border-radius: 5px;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  width: 300px;
+}
+
+.form p input{
+  position: relative;
+  margin: auto;
+}
 .cinema{
 	text-align: center;
 
@@ -36,9 +57,10 @@
 
 
 body{
-  background-image: url('assets/curtain_open.gif');
+  background-image: url('assets/curtains_360.gif');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  z-index: 100px;
 }
