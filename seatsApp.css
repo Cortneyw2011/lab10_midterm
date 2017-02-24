@@ -32,24 +32,27 @@ form{
   width: 300px;
 }
 
+<<<<<<< HEAD
 .form p input{
   position: relative;
   margin: auto;
 }
-.cinema{
-	text-align: center;
 
-}
+.cinema{
+	text-align:center;
+
+ }
 
 
 .seatRow{
-	display: inline;
+/*	display: inline-flex; */
 	text-align:center;
   position: relative;
   top: 50px;
 }
 .seatRow img{
 	width: 125px;
+  display: inline-flex;
 
 
 }
@@ -62,5 +65,51 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
   z-index: 100px;
+
+  height: 100%;
+  width:100%;
+}
+
+
+/* desktop */
+
+@media (max-width:1200px){
+.seatRow img{
+  width:100px;
+}
+}
+
+@media (max-width:992px){
+.seatRow img{
+  width: 75px;
+}
+}
+@media (max-width:688px){
+  .seatRow img{
+    width: 50px;
+  }
+}
+
+
+/* mobile */
+
+@media (max-width:490px){
+  .seatRow img{
+    width: 40px;
+  }
+}
+
+
+@media (max-width:410px){
+  .seatRow img{
+    width: 35px;
+  }
+
+}
+@media (max-width:360px){
+  .seatRow img{
+    width: 29px;
+  }
 }
