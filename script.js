@@ -1,7 +1,7 @@
 $(document).ready(function(){
 $(".form").hide()
-$( "#chair1" ).click(function(){
-	$( ".form" ).show();
-	$("#chair1").fadeTo("slow", 0.75);
-	});
+$("img").click(function(){
+ 	$(".form").toggle();
+	$(this).fadeTo("fast", 0.3);
+});
 });
