@@ -19,7 +19,7 @@
   border-radius: 5px;
   position: relative;
   top: 75px;
-  height: 900px;
+  height: 950px;
 
 }
 
@@ -27,16 +27,13 @@ form{
   border: inset 5px black;
   border-radius: 5px;
   position: relative;
-  top: 200px;
+  top: 90px;
   margin: auto;
-  width: 300px;
+  width: 200px;
+  height: 150px;
 }
 
-<<<<<<< HEAD
-.form p input{
-  position: relative;
-  margin: auto;
-}
+
 
 .cinema{
 	text-align:center;
