@@ -1,12 +1,14 @@
 $(document).ready(function(){
 
 
+
 $(".form").hide()
 
 $(".chairs").click(function(){
 	$(this).toggleClass('chairs2');
 
 });
+
 
 $('#ready').click(function(){
   $('form').show();
@@ -18,6 +20,8 @@ $('#submit').click(function(){
   $('form').hide();
 });
 
+
+
 var array = [];
 
 function grabInput(){
@@ -25,6 +29,6 @@ function grabInput(){
     var name = $('#name').val();
     var email = $('#email').val();
     array.push({name: name, email: email});
-    console.log(array);
-}
+    console.log(array);}
+
 });
