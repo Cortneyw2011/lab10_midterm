@@ -6,13 +6,11 @@ $(".form").hide()
 
 $(".chairs").click(function(){
 	$(this).toggleClass('chairs2');
-
 });
 
 
-$('#ready').click(function(){
+$('.chairs').click(function(){
   $('form').show();
-  $(this).fadeTo("fast", 0.3);
 });
 
 $('#submit').click(function(){
@@ -20,7 +18,11 @@ $('#submit').click(function(){
   $('form').hide();
 });
 
+$("#submit").click(function(){
+    $(".row").append(array);
 });
+});
+
 
 var array = [];
 function grabInput(){
