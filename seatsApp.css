@@ -15,7 +15,7 @@
 .chairs2{
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: gray;
   display: inline-block;
   border: yellow 3px outset;
   border-radius: 3px;

@@ -20,15 +20,15 @@ $('#submit').click(function(){
   $('form').hide();
 });
 
-
+});
 
 var array = [];
-
 function grabInput(){
-    event.preventDefault();
+    // event.preventDefault();
     var name = $('#name').val();
     var email = $('#email').val();
     array.push({name: name, email: email});
-    console.log(array);}
-
-});
+    console.log(array);
+  $( ".chairs2" ).append('SEAT TAKEN!');
+    // $( ".chairs2" ).append($('#name').val() );
+  }
