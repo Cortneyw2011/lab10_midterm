@@ -24,11 +24,12 @@ $('#submit').click(function(){
 
 var array = [];
 function grabInput(){
+
     // event.preventDefault();
     var name = $('#name').val();
     var email = $('#email').val();
     array.push({name: name, email: email});
     console.log(array);
-  $( ".chairs2" ).append('SEAT TAKEN!');
-    // $( ".chairs2" ).append($('#name').val() );
+    $( ".chairs2" ).empty().append('SEAT TAKEN!');
+    //$( ".chairs2" ).append($('#name').val() );
   }
