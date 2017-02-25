@@ -40,7 +40,7 @@ function grabInput(){
 
 
     //$( ".chairs2" ).empty().append('SEAT TAKEN!');
-    $( ".para2" ).append(name);
+    $( ".para2" ).append(' ' + name);
     //$( ".chairs2" ).append($('#name').val() );
-  
+
   }
