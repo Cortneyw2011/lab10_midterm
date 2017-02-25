@@ -1,26 +1,30 @@
 $(document).ready(function(){
+
+
 $(".form").hide()
-$("img").click(function(){
- 	$(".form").show();
-	$(this).fadeTo("fast", 0.3);
+
+$(".chairs").click(function(){
+	$(this).toggleClass('chairs2');
+
 });
 
-// Form Array   >>>>>>>>>>>>>>>>>>>
+$('#ready').click(function(){
+  $('form').show();
+  $(this).fadeTo("fast", 0.3);
+});
 
-// $( "form" ).submit(function( event ) {
-//   console.log( $( ".form" ).serializeArray() );
-//   event.preventDefault();
-// 	});
-// });
+$('#submit').click(function(){
+    event.preventDefault();
+  $('form').hide();
+});
 
 var array = [];
 
 function grabInput(){
     event.preventDefault();
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var newObject = {name: name,
-                  email: email};
-    array.push(newObject);
+    var name = $('#name').val();
+    var email = $('#email').val();
+    array.push({name: name, email: email});
     console.log(array);
 }
+});

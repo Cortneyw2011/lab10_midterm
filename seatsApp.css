@@ -1,4 +1,32 @@
+.para{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.chairs{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+  border: orange 3px solid;
+  border-radius: 3px;
+}
 
+.chairs2{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  display: inline-block;
+  border: yellow 3px outset;
+  border-radius: 3px;
+}
+
+.chairs3{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+}
 #header h1{
 
   font-family: 'Great Vibes', cursive;
@@ -46,14 +74,15 @@ form{
 	text-align:center;
   position: relative;
   top: 5px;
+  padding: 10px 10px 10px 10px;
 }
 .seatRow img{
 	width: 100px;
   /*display: inline-flex;*/
-
-
 }
-
+#ready {
+    margin-top: 10px;
+  }
 
 
 body{
