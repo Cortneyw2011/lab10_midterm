@@ -45,7 +45,7 @@ form{
   /*display: inline-flex; */
 	text-align:center;
   position: relative;
-  top: 10px;
+  top: 5px;
 }
 .seatRow img{
 	width: 100px;
