@@ -42,14 +42,14 @@ form{
 
 
 .seatRow{
-  display: inline-flex; 
+  /*display: inline-flex; */
 	text-align:center;
   position: relative;
   top: 50px;
 }
 .seatRow img{
 	width: 100px;
-  display: inline-flex;
+  /*display: inline-flex;*/
 
 
 }
