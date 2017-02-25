@@ -7,6 +7,10 @@ $(".form").hide()
 $(".chairs").click(function(){
 	$(this).toggleClass('chairs2');
 });
+  $(".show").click(function(){
+  	$(this).toggleClass('para2');
+});
+
 
 
 $('.chairs').click(function(){
@@ -24,6 +28,7 @@ $("#submit").click(function(){
 });
 
 
+
 var array = [];
 function grabInput(){
 
@@ -32,6 +37,10 @@ function grabInput(){
     var email = $('#email').val();
     array.push({name: name, email: email});
     console.log(array);
-    $( ".chairs2" ).empty().append('SEAT TAKEN!');
+
+
+    //$( ".chairs2" ).empty().append('SEAT TAKEN!');
+    $( ".para2" ).append(name);
     //$( ".chairs2" ).append($('#name').val() );
+  
   }
