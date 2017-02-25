@@ -106,7 +106,14 @@ body{
   height: 100%;
   width:100%;
 }
+#screen{
+  text-align: center;
+  border:solid;
+  width:100%;
+  background-color: white;
 
+
+}
 
 /* desktop */
 
