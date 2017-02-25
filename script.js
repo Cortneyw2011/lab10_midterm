@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+// Form Hide >>>>>>>>>>>>>>>>>>>>>>
+
 $(".form").hide()
 $("img").click(function(){
  	$(".form").show();
@@ -8,12 +11,6 @@ $("img").click(function(){
 
 // Form Array   >>>>>>>>>>>>>>>>>>>
 
-// $( "form" ).submit(function( event ) {
-//   console.log( $( ".form" ).serializeArray() );
-//   event.preventDefault();
-// 	});
-// });
-
 var array = [];
 
 function grabInput(){
@@ -22,5 +19,8 @@ function grabInput(){
     var email = $('#email').val();
     array.push({name: name, email: email});
     console.log(array);
-}
+};
+
+
+
 });
