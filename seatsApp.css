@@ -32,7 +32,16 @@
   font-family: 'Great Vibes', cursive;
   text-align: center;
   font-size: 80px;
-  color: black;
+  color: white;
+  text-shadow:
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
 
 }
 
@@ -97,18 +106,25 @@ body{
   height: 100%;
   width:100%;
 }
+#screen{
+  text-align: center;
+  border:solid;
+  width:100%;
+  background-color: white;
 
+
+}
 
 /* desktop */
 
 @media (max-width:1200px){
-.seatRow img{
+.chairs {
   width:100px;
 }
 }
 
 @media (max-width:992px){
-.seatRow img{
+.chairs {
   width: 75px;
 }
 #header h1{
@@ -116,7 +132,7 @@ body{
 }
 }
 @media (max-width:688px){
-  .seatRow img{
+  .chairs {
     width: 50px;
   }
   #header h1{
@@ -128,7 +144,7 @@ body{
 /* mobile */
 
 @media (max-width:490px){
-  .seatRow img{
+  .chairs {
     width: 40px;
   }
   #header h1{
@@ -138,7 +154,7 @@ body{
 
 
 @media (max-width:410px){
-  .seatRow img{
+  .chairs {
     width: 35px;
   }
 
@@ -148,7 +164,7 @@ body{
 
 }
 @media (max-width:360px){
-  .seatRow img{
-    width: 29px;
+  .chairs {
+    width: 25px;
   }
 }
