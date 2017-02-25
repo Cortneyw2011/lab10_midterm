@@ -5,6 +5,7 @@ $("img").click(function(){
 	$(this).fadeTo("fast", 0.3);
 });
 
+
 // Form Array   >>>>>>>>>>>>>>>>>>>
 
 // $( "form" ).submit(function( event ) {
@@ -17,10 +18,9 @@ var array = [];
 
 function grabInput(){
     event.preventDefault();
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var newObject = {name: name,
-                  email: email};
-    array.push(newObject);
+    var name = $('#name').val();
+    var email = $('#email').val();
+    array.push({name: name, email: email});
     console.log(array);
 }
+});
