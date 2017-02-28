@@ -5,7 +5,7 @@ $(document).ready(function(){
 $(".form").hide()
 
 $(".chairs").click(function(){
-	$(this).toggleClass('chairs2');
+	$(this).toggleClass('chairs2 chairs3');
 });
   $(".show").click(function(){
   	$(this).toggleClass('para2');
