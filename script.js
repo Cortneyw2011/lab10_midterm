@@ -38,9 +38,8 @@ function grabInput(){
     array.push({name: name, email: email});
     console.log(array);
 
+		$(".chairs3").append('RESERVED!').removeClass('chairs3');
+		$( ".para2").append(' ' + name).removeClass("para2");
 
-    //$( ".chairs2" ).empty().append('SEAT TAKEN!');
-    $( ".para2" ).append(' ' + name);
-    //$( ".chairs2" ).append($('#name').val() );
 
   }
